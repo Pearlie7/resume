@@ -5,15 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style> 
+        p {
+            color: brown;
+            background-color: aqua;
+            font-family: arial;
+            font-weight: bold;
+        }
+    </style> -->
 </head>
 <body>
-    <a href="index.html">home</a>
-    <a href="about.html">about</a>
+    <div class="nav">
+<nav>
+    <a id="index" href="index.html">home</a>
+    <a id="about" href="about.html" >about</a>
     <a href="contact.html">contact</a>
     <a href="Resume.html">resume</a>
+</nav>
+</div>
 
     <header>
-    <h1>Pearl Annie</h1>
+    <h1 id="pearl">Pearl Annie</h1>
+    <h1 class="one">Test 1</h1>
+    <h1 class="two">Test 2</h1>
+    <h1 class="three">Test 3</h1>
+    <h1 class="four">Test 4</h1>
+    <h1 id="five">Test 5</h1>
+
+
 </header>
     <hr>
 
@@ -94,8 +114,6 @@
 <input type="text" name="fname" value="" id="fname" placeholder="first name"><br>
 <label for="lname">Last Name</label>
 <input type="text" name="lname" value="" id="lname" placeholder="last name"><br>
-<label for="age">Age</label>
-<input type="date" name="age" value="" id="age" placeholder="age"><br>
 <label for="phone">Phone No</label>
 <input type="tel" name="phone" value="" id="phone" placeholder="phone no"><br>
 <label for="sel">Gender</label>
@@ -104,10 +122,67 @@
     <option value="male">Male</option>
     <option value="others" selected>Others</option>
 </select><br>
+<label for="date">Date</label>
+<input type="date" name="date"><br>
 <textarea name="comments" cols="30" rows="5" placeholder="comments"></textarea><br>
 <button type="reset">Reset</button> 
-<button type="submit">Submit</button>
+<button type="submit">Submit</button><br>
+<label for="color">Select color</label>
+<input type="color" name="color"><br>
 </fieldset>
+<input type="file" name="file"><br>
+<label for="ranger">Range</label>
+<input type="range" name="ranger" min="0" max="100">
 </form>
+
+
+<!-- this section is for audio and video test -->
+<audio controls>
+    <source src="Rema-Calm-Down-.mp3" type="audio/mp3">
+</audio><br>
+<video controls>
+<source src="">
+</video>
+
+<!-- this section is for table testing -->
+<table >
+    
+    <thead >
+        <tr>
+            <th colspan="2" style="border: 2px solid black; padding: 5px;">This is the table header tester</th>
+        </tr>
+    </thead>
+
+    <tbody style="text-align: left;">
+        <tr>
+            <td>first cell</td>
+            <td>second cell</td>
+            <td>third cell</td>
+            
+
+        </tr>
+        <tr>
+            <td>first name</td>
+            <td rowspan="">second name</td>
+            <td>third name</td>
+
+
+        </tr>
+        <tr>
+            <td>fourth name</td>
+            <td>fift name</td>
+            <td>sixth name</td>
+
+
+        </tr>
+        
+    </tbody>
+    
+    <tfoot>
+        <tr>
+            <td colspan="2" style="text-align: center;">footer 1</td>
+        </tr>
+    </tfoot>
+</table>
 </body>
 </html>
