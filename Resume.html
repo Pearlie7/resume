@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style> 
+        p {
+            color: brown;
+            background-color: aqua;
+            font-family: arial;
+            font-weight: bold;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="nav">
+<nav>
+    <a id="index" href="index.html">home</a>
+    <a id="about" href="about.html" >about</a>
+    <a href="contact.html">contact</a>
+    <a href="Resume.html">resume</a>
+</nav>
+</div>
+
+    <header>
+    <h1 id="pearl">Pearl Annie</h1>
+    <h1 class="one">Test 1</h1>
+    <h1 class="two">Test 2</h1>
+    <h1 class="three">Test 3</h1>
+    <h1 class="four">Test 4</h1>
+    <h1 id="five">Test 5</h1>
+
+
+</header>
+    <hr>
+
+    <section>
+    <table>
+        <tr>
+        <td>
+            <a href="https://google.com">
+                <img src="Resized2.jpg" style="width:200px; height: 200px;" alt="pearlannie's picture upload">
+            </a>
+        </td>
+        <td>
+            <p>GOOGLE DEVELOPER, EXPERTS ONLINE COURSE CREATOR AND AUTHOR, SPEAKER AND PRESENTER APPLICATION, APPLICATION DEVELOPER- DIGITAL CONTENT CREATOR</p>
+
+        </td>
+    </tr>
+    </table>
+</section>
+    
+<section>
+    <!-- This is the section for experience -->
+<header>
+    <h2 style="border:2px solid red">Experience</h2>
+</header>
+
+<ul>
+    <li>Online Instructor 2000 - present</li>
+    <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+    </ol>
+</ul>
+<ul>
+    <li>Web Developer 1896 - 2000</li>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        </ol>
+</ul>
+</section>
+
+<section>
+    <!-- This is the section for skills -->
+<header>
+    <h2 style="border:2px solid red">Skills</h2>
+</header>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+</ul>
+</section>
+
+<footer>
+    <div>Contact me at
+    <address>contact me at <a href="mailto:dpearlannie@gmail.com">Contact Pearl Annie</a> 
+        <a href="tel:08134591534">08134591534</a>
+    </address>
+</div>
+</footer>
+<section>
+<!-- this section is for iframe -->
+<div><a href="index.html" target="_myiframe" style="font-family: Arial, Helvetica, sans-serif; color: red;">Go to my home page</a></div>
+<iframe name="myiframe" src="index.html" style="border: 5px solid red;"></iframe>
+<br>
+<!-- this is section is for self and parent linked iframes -->
+<iframe src="about.html" style="border: 5px solid blue;" > 
+
+</iframe>
+</section>
+
+<!-- this is section is form -->
+<form method="get">
+    <fieldset style="border: 1px solid;">
+<label for="fname">First Name</label>
+<input type="text" name="fname" value="" id="fname" placeholder="first name"><br>
+<label for="lname">Last Name</label>
+<input type="text" name="lname" value="" id="lname" placeholder="last name"><br>
+<label for="phone">Phone No</label>
+<input type="tel" name="phone" value="" id="phone" placeholder="phone no"><br>
+<label for="sel">Gender</label>
+<select name="sel" id="sel">
+    <option value="female">Female</option>
+    <option value="male">Male</option>
+    <option value="others" selected>Others</option>
+</select><br>
+<label for="date">Date</label>
+<input type="date" name="date"><br>
+<textarea name="comments" cols="30" rows="5" placeholder="comments"></textarea><br>
+<button type="reset">Reset</button> 
+<button type="submit">Submit</button><br>
+<label for="color">Select color</label>
+<input type="color" name="color"><br>
+</fieldset>
+<input type="file" name="file"><br>
+<label for="ranger">Range</label>
+<input type="range" name="ranger" min="0" max="100">
+</form>
+
+
+<!-- this section is for audio and video test -->
+<audio controls>
+    <source src="Rema-Calm-Down-.mp3" type="audio/mp3">
+</audio><br>
+<video controls>
+<source src="">
+</video>
+
+<!-- this section is for table testing -->
+<table >
+    
+    <thead >
+        <tr>
+            <th colspan="2" style="border: 2px solid black; padding: 5px;">This is the table header tester</th>
+        </tr>
+    </thead>
+
+    <tbody style="text-align: left;">
+        <tr>
+            <td>first cell</td>
+            <td>second cell</td>
+            <td>third cell</td>
+            
+
+        </tr>
+        <tr>
+            <td>first name</td>
+            <td rowspan="">second name</td>
+            <td>third name</td>
+
+
+        </tr>
+        <tr>
+            <td>fourth name</td>
+            <td>fift name</td>
+            <td>sixth name</td>
+
+
+        </tr>
+        
+    </tbody>
+    
+    <tfoot>
+        <tr>
+            <td colspan="2" style="text-align: center;">footer 1</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
