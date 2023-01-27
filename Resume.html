@@ -32,7 +32,10 @@
     <h1 class="three">Test 3</h1>
     <h1 class="four">Test 4</h1>
     <h1 id="five">Test 5</h1>
-
+    <h1 class="six">Test 6</h1>
+    <h1 class="six">Test 7</h1>
+    <h1 class="six">Test 8</h1>
+    <h1 class="six">Test 9</h1>
 
 </header>
     <hr>
@@ -55,6 +58,7 @@
     
 <section>
     <!-- This is the section for experience -->
+    <div class="list">
 <header>
     <h2 style="border:2px solid red">Experience</h2>
 </header>
@@ -75,9 +79,8 @@
         <li>JAVASCRIPT</li>
         </ol>
 </ul>
-</section>
 
-<section>
+
     <!-- This is the section for skills -->
 <header>
     <h2 style="border:2px solid red">Skills</h2>
@@ -88,6 +91,7 @@
     <li>JAVASCRIPT</li>
 </ul>
 </section>
+</div>
 
 <footer>
     <div>Contact me at
@@ -109,22 +113,23 @@
 
 <!-- this is section is form -->
 <form method="get">
-    <fieldset style="border: 1px solid;">
+    <fieldset class="field" style="border: 1px solid;">
+        <h1 style="text-align: center;">MY FORM</h1>
 <label for="fname">First Name</label>
 <input type="text" name="fname" value="" id="fname" placeholder="first name"><br>
 <label for="lname">Last Name</label>
-<input type="text" name="lname" value="" id="lname" placeholder="last name"><br>
+<input type="text" name="lname" value="" id="fname" placeholder="last name"><br>
 <label for="phone">Phone No</label>
-<input type="tel" name="phone" value="" id="phone" placeholder="phone no"><br>
+<input type="tel" name="phone" value="" id="fname" placeholder="phone no"><br>
 <label for="sel">Gender</label>
-<select name="sel" id="sel">
+<select name="sel" id="fname">
     <option value="female">Female</option>
     <option value="male">Male</option>
     <option value="others" selected>Others</option>
 </select><br>
 <label for="date">Date</label>
-<input type="date" name="date"><br>
-<textarea name="comments" cols="30" rows="5" placeholder="comments"></textarea><br>
+<input type="date" name="date" id="fname"><br>
+<textarea name="comments" cols="30" rows="5" placeholder="comments" id="fname"></textarea><br>
 <button type="reset">Reset</button> 
 <button type="submit">Submit</button><br>
 <label for="color">Select color</label>
@@ -145,11 +150,11 @@
 </video>
 
 <!-- this section is for table testing -->
-<table >
+<table class="table">
     
     <thead >
         <tr>
-            <th colspan="2" style="border: 2px solid black; padding: 5px;">This is the table header tester</th>
+            <th colspan="3" style="border: 2px solid black; padding: 5px;">This is the table header tester</th>
         </tr>
     </thead>
 
@@ -180,7 +185,7 @@
     
     <tfoot>
         <tr>
-            <td colspan="2" style="text-align: center;">footer 1</td>
+            <td colspan="3" style="text-align: center;">footer 1</td>
         </tr>
     </tfoot>
 </table>
