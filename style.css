@@ -1,0 +1,99 @@
+#pearl{
+        color: red;
+        background-image: url(https://cdn.pixabay.com/photo/2018/08/26/23/55/woman-3633737_960_720.jpg);
+        height: 500px;
+        background-repeat: repeat;
+        background-color: brown;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: contain;
+}
+.one{
+    background-color: red;
+    color: white;
+    
+}
+.two{
+    color: blue;
+    background-color: yellow;
+    max-width: 500px;
+    text-align: center;
+}
+.three{
+    color: white;
+    background-color: blue;
+}
+.four{
+    color: green;
+}
+#five{
+    color: white;
+    background-color: green;
+}
+p {
+    color: brown;
+    background-color: aqua;
+    font-family: arial;
+    font-weight: bold;
+} 
+.one{
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px 2px;
+    padding-left:  40px;
+}
+.two{
+    border-width: 20px;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 9px;
+}
+.three{
+    border-width: 5px;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+    margin: auto;
+    padding: 30px ;
+}
+.four{
+    border: 5px solid black;
+    width: 50%;
+    margin-left: 20px;
+    outline-style: double;
+    outline-color: red;
+}
+#five{
+    border: 5px solid black;
+    outline-style: dashed;
+    outline-color: blueviolet;
+    outline-width: 2px;
+
+}
+
+a:hover{
+    color: rgb(206, 91, 14);
+    font-size:30px;
+}
+/* a:visited{ 
+    color: red;
+}*/
+a:link{
+    background-color: rgb(179, 136, 136);
+    margin: 2px;
+    border-radius: 10px;
+    
+}
+.one:hover{
+    color: yellow;
+}
+.two:hover{
+    color: red;
+}
+.nav{
+    background-color: goldenrod;
+}
