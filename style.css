@@ -86,6 +86,7 @@ a:link{
     background-color: rgb(179, 136, 136);
     margin: 2px;
     border-radius: 10px;
+    ba
     
 }
 .one:hover{
@@ -96,4 +97,39 @@ a:link{
 }
 .nav{
     background-color: goldenrod;
+}
+.six{
+    background-color: red;
+    color: antiquewhite;
+}
+.six:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.field{
+    background-color: lightblue;
+}
+#fname{
+    margin-bottom: 20px;;
+}
+body{
+    background-color: palegoldenrod;
+}
+.list{
+    background-color: pink;
+    border-radius: 20px;
+}
+.table{
+  background-color: gray;  
+  color: aliceblue;
+  border: 2px solid black;
+}
+td{
+    border: 1px solid black;
+}
+th{
+    text-align: center;
+}
+td:hover{
+    background-color: brown;
 }
