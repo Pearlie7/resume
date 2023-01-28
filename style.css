@@ -133,3 +133,21 @@ th{
 td:hover{
     background-color: brown;
 }
+
+h1{
+    font-variant: small-caps;
+}
+h3{
+    text-decoration: underline;
+    text-transform:capitalize;
+    text-decoration-color: blue;
+    text-shadow: 1px 1px red;
+    text-indent: 50px;
+}
+.fa-solid{
+    color: brown;
+    margin: 10px;
+}
+.fa-solid:hover{
+    font-size: 50px;
+}
