@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+nav{
+    background-color: darkred;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display:inline-block;
+}
+nav a:hover{
+    background-color: black;
+    font-size: 1.2em;
+}
+.div2{
+    position: fixed;
+    width: 100%;
+
+}
+.div1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+.div1:hover{
+    background-color: darkred;
+}
+img{
+    width: 24.7%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+.img1{
+    padding-top: 145px;
+    height: 300px;
+
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    font-size: 1em;
+}

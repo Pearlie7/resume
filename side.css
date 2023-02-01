@@ -1,0 +1,100 @@
+/* nav{ 
+    background-color: darkcyan;
+    height: 50px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 4px;   
+}
+nav ul li a:hover{
+    background-color: gray;
+}
+.con1{
+background-color: red;
+width: 300px;
+height: 100px;
+}
+
+
+
+.con2{
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 50px;
+    z-index: 2;
+    
+    }
+    
+    .con3{
+        background-color: yellow;
+        width: 300px;
+        height: 100px;
+        position: relative;
+        z-index: 1;
+        padding-left: 200px;
+        }
+
+        .con4{
+            background-color: blue;
+            width: 300px;
+             height: 100px;
+             position:absolute;
+             z-index: 2;
+              padding-left: 200px;
+            }
+            */
+            aside{
+                height: 100%;
+                width: 20%;
+                background-color: red;
+                position: fixed;
+                z-index: 3;
+                top: 2px;
+                left: 0px;
+            }
+            aside ul li{
+                list-style-type: none;
+                text-align: left;
+                padding-left: opx;
+                
+
+            }
+            aside ul li a{
+                background-color: darkred;
+                color: white;
+                display:bloc;
+                text-decoration: none;
+                padding: 5px;
+                margin-bottom: 2px;
+            }
+            body{
+                background-color: lightgray;
+            }
+            /* question around box-sizing
+             * {
+                box-sizing: border-box;
+            } */
+            .content{
+                padding-left: 20%;
+                margin-left: 5px;
+            }
+            .diva{
+                position: ;
+            }
+      
+            

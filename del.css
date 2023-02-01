@@ -1,0 +1,107 @@
+body{
+    background-color: antiquewhite;
+
+}
+aside{
+    background-color: red;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+nav a{
+    text-decoration: none;
+    background-color: darkred;
+    color: white;
+    display: block;
+    margin-bottom: 2px;   
+}
+a:hover{
+    background-color:lightcoral;
+    color: black;
+
+}
+.div2{
+    padding-left: 20%;
+    margin: 5px;
+}
+.float{
+    list-style-type: none;
+    display: block;
+    background-color: red;
+    float: left;
+    overflow: hidden;
+}
+.float a{
+    padding: 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+} 
+
+.float a:hover{
+    background-color: darkred;
+}
+
+.float2{
+    background-color: yellowgreen;
+    max-width: 33%;
+    float: left;
+    margin-right:2px;
+    margin-top: 2px;
+    text-align: justify;
+}
+.float3{
+    background-color: red;
+    max-width: 33%;
+    float: left;
+    margin-right:2px ;
+    margin-top: 2px;
+    text-align: justify;
+}
+.float4{
+    background-color: blue;
+    max-width: 33%;
+    float: left;
+    margin-top: 2px;
+    padding:
+    text-align: justify;
+
+}
+.float1{
+        background-color: palevioletred;
+        float: left;
+        width: 19%;
+        margin-right: 1%;
+    
+ /* clear: both; */  
+}
+.float12{
+    background-color: darkcyan;
+    width: 19%;
+    float: left;
+    margin-right: 1%;
+
+}
+.float13{
+    background-color: palevioletred;
+    width: 19%;
+    float: left;
+    margin-right: 1%;
+}
+.float14{
+    background-color: darkcyan;
+    width: 19%;
+    float: left;
+    margin-right: 1%;
+}
+.float15{
+    background-color: palevioletred;
+    width: 19.5%;
+    float: left;
+
+}
+/* .allfloat{ */
+}
